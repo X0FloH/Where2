@@ -3376,6 +3376,21 @@ Prefab:
       propertyPath: throwForce
       value: 1000
       objectReference: {fileID: 0}
+    - target: {fileID: 114410597587655320, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 2}
+      propertyPath: tasks.Array.data[0]
+      value: Find The Key
+      objectReference: {fileID: 0}
+    - target: {fileID: 114410597587655320, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 2}
+      propertyPath: tasks.Array.data[1]
+      value: Open The Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 114410597587655320, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 2}
+      propertyPath: tasks.Array.data[2]
+      value: Knock Out The Guard
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_IsPrefabParent: 0

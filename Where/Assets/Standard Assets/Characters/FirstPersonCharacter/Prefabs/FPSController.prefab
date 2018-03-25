@@ -579,8 +579,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   guard: {fileID: 0}
+  focusPoint: {fileID: 0}
   zPos: -5.37
-  player: {fileID: 0}
+  slowSpeed: 0.35
+  player: {fileID: 100000}
 --- !u!114 &114097925791653268
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -614,7 +616,7 @@ MonoBehaviour:
   door: {fileID: 0}
   fadeOut: {fileID: 114934427222846820}
   cellKey: {fileID: 1842598494474080, guid: 41a02fe8b0802cd47b3930cb6e162225, type: 2}
-  throwForce: 750
+  throwForce: 1000
 --- !u!114 &114410597587655320
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -627,9 +629,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tasks:
-  - 'Current Task: Find The Key'
-  - 'Current Task: Open The Door'
-  - 'Current Task: KO The Guard'
+  - Find The Key
+  - Open The Door
+  - Knock Out The Guard
   taskPlace: {fileID: 0}
   taskAdder: {fileID: 114097925791653268}
   currentTask: -1
