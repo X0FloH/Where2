@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33797481622409972}
   - component: {fileID: 23977730478192034}
   - component: {fileID: 64564513414964722}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cylinder
   m_TagString: CellKey
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 33857451356296940}
   - component: {fileID: 23889947340245652}
   - component: {fileID: 64619829266626928}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube
   m_TagString: CellKey
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 4031618373931008}
   - component: {fileID: 54852117507278408}
   - component: {fileID: 114422729798294586}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: CellKey
   m_TagString: CellKey
   m_Icon: {fileID: 0}
@@ -211,9 +211,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 2
   m_Convex: 1
-  m_CookingOptions: 14
+  m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: fead40587f95a9c40b35b358415804af, type: 3}
 --- !u!64 &64619829266626928
@@ -225,9 +225,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 2
   m_Convex: 1
-  m_CookingOptions: 14
+  m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: fead40587f95a9c40b35b358415804af, type: 3}
 --- !u!114 &114422729798294586
@@ -241,6 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fc6ed0ed777df8439533dab1ab8202c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cellDoor: {fileID: 0}
   xDetect: -0.11
   fadeOutBlack: {fileID: 0}
+  player: {fileID: 0}
+  door: {fileID: 0}

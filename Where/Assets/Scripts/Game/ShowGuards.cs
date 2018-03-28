@@ -22,7 +22,7 @@ public class ShowGuards : MonoBehaviour {
         {
             foreach (Transform child in transform)
             {
-                if(child != transform)
+                if(child != transform && child.tag != "DontSee")
                 {
                     child.gameObject.GetComponent<Renderer>().material.shader = highlight;
                 }
@@ -31,7 +31,7 @@ public class ShowGuards : MonoBehaviour {
         {
             foreach (Transform child in transform)
             {
-                if (child != transform)
+                if (child != transform && child.tag != "DontSee")
                 {
                     child.gameObject.GetComponent<Renderer>().material.shader = defualt;
                 }

@@ -12,6 +12,7 @@ public class ThrowZoom : MonoBehaviour {
     public float slowSpeed = 0.35f;
 
     public GameObject player;
+    public GameObject mouse2ToThrow;
 
     Vector3 playerPos;
     bool walkedOver;
@@ -26,10 +27,12 @@ public class ThrowZoom : MonoBehaviour {
                 transform.LookAt(focusPoint);
                 player.GetComponent<FirstPersonController>().enabled = false;
                 Time.timeScale = slowSpeed;
+                mouse2ToThrow.SetActive(true);
             } else
             {
                 player.GetComponent<FirstPersonController>().enabled = true;
                 Time.timeScale = 1f;
+                mouse2ToThrow.SetActive(false);
             }
         }
     }
