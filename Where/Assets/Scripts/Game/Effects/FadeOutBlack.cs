@@ -11,6 +11,8 @@ public class FadeOutBlack : MonoBehaviour {
     public float speed = 2f;
     public bool now;
 
+    public int nextScene = 1;
+
     bool done;
 
     private void Update()
@@ -25,7 +27,7 @@ public class FadeOutBlack : MonoBehaviour {
         }
         if(panel.GetComponent<Image>().color.a >= 0.99 && now)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(nextScene);
         }
     }
 

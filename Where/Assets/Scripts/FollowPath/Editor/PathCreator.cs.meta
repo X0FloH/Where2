@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 90be91a015bce5e4ab652364b0cb9a6c
+timeCreated: 1514921205
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_PersistentViewDataDictionary: {instanceID: 0}
+  - pathNode: {fileID: 1981782202826372, guid: 853042dd271ca5248b2ef43fbe3f3925, type: 2}
+  - basicCube: {fileID: 1286410270649904, guid: aecb76840d002574c9acf154af9ee445,
+      type: 2}
+  - oldNode: {instanceID: 0}
+  - pathFollowRef: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

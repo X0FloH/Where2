@@ -6,9 +6,10 @@ public class ZoomFocus : MonoBehaviour {
 
     public FollowOffset follow;
     public Transform guardTarget;
+    public float divide = 4f;
 
-    private void Update()
+    private void FixedUpdate()
     {
-        follow.offset.z = (guardTarget.position.z - transform.position.z) / 4;
+        follow.offset.z = (guardTarget.position.z - transform.position.z) / divide;
     }
 }

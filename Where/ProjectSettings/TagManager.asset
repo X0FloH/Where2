@@ -8,6 +8,10 @@ TagManager:
   - Door
   - CellKey
   - DontSee
+  - Grate
+  - Torch
+  - CCTV1Break
+  - CCTV2Break
   layers:
   - Default
   - TransparentFX
@@ -21,8 +25,8 @@ TagManager:
   - Player
   - Guard
   - Key
-  - 
-  - 
+  - CCTVBreak1
+  - CCTVBreak2
   - 
   - 
   - 
